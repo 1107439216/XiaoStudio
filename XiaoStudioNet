@@ -1,0 +1,76 @@
+<!doctype html>
+<html>			<!--Version 0.2.0-->
+<head>
+		<meta charset = "UTF-8">			<!--字符集:UT-8-->
+		<title>filogesoft</title>
+	<style>
+			body			/*背景Background*/
+			{
+				background:linear-gradient(to right,red,blue);			/*背景:天空蓝向右渐变至紫 函数语法:线性渐变(to 方向,颜色1,颜色2...颜色n);(颜色)*/
+			}
+					
+			#title			/*标题Title*/
+			{
+				font-size:50px;			/*字体-大小:50px*/
+				color:ghostwhite;			/*文本-排列:居中*/
+				text-align:center;			/*颜色:幽灵白*/
+			}
+			
+			#passwordInputBox			/*密码输入框Password input box*/
+			{	
+				margin:auto;			/*外边距:自适应*/
+				width:650px;			/*宽度:650px*/
+				height:40px;			/*高度:40px*/
+				border-radius:25px;			/*边框-半径:25px[CSS3属性(部分浏览器不支持)]*/
+				font-size:25px;			/*字体-大小:25px*/
+				text-align:center;			/*文本-排列:居中*/
+				background:ghostwhite;			/*背景:幽灵白*/
+			}
+			
+			#passwordInputText			/*密码输入框的文本Text of password input box*/
+			{
+				width:500px;			/*宽度:500px*/
+				height:30px;			/*高度:30px*/
+				border:0px solid white;			/*边框:无厚度(厚度) 固体(形态) 白色(颜色)*/
+				color:steelblue;			/*颜色:钢铁蓝*/
+				text-align:center;			/*文本-排列:居中*/
+			}
+			
+			#content			/*内容Content*/
+			{
+				margin-top:-20px;			/*外边距-顶部:40px*/
+				margin-left:auto;			/*外边距-左:自适应*/
+				margin-right:auto;			/*外边距-右:自适应*/
+				width:auto;			/*宽度：625px*/
+				height:500px;			/*高度:400px*/
+				font-size:115px;			/*字体-大小:20px*/
+				color:white;			/*颜色:钢铁蓝*/
+				text-align:center;			/*文本-排列:居中*/
+				background:rgba(255,255,255,0.15);			/*背景:白色 透明度:15%(颜色)*/
+				box-shadow:0 -2px 150px -1px rgba(255,255,255,0.75);			/*盒子-阴影:0px -2px(X轴) 150px -1px(Y轴) 白色 透明度:15%(颜色)*/
+			}
+			
+			#like			/*点赞like*/
+			{
+				
+			}
+		#title {
+	font-family: 等线, 方正舒体, 方正粗黑宋简体, 方正姚体, 黑体, 华文彩云, 华文行楷, 华文琥珀, 华文楷体;
+}
+    #title {
+	font-family: 华文楷体;
+}
+    #title {
+	font-family: Verdana, Geneva, sans-serif;
+}
+    </style>
+</head>
+<body>
+<p id = "title">XiaoStudio</p>
+<p id = "title">小蛐蛐工作室</p>
+		
+<div id = "content">
+			
+		</div>
+</body>
+</html>
